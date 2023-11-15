@@ -1,0 +1,18 @@
+var student = {
+  name: "John",
+  age: 15,
+  gender: "male",
+  interest: "coding",
+}
+
+// Cara panggil 1
+console.log(student.name)
+console.log(student.age)
+console.log(student.gender)
+console.log(student.interest)
+
+// Cara panggil 2
+console.log(student['name'])
+console.log(student['age'])
+console.log(student['gender'])
+console.log(student['interest'])
